@@ -21,6 +21,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 .montserrat-400 {
@@ -175,6 +176,7 @@ h3 {
 
 .movie-poster {
     width: 80%;
+    margin-bottom: 3%;
 }
 
 /* Download */
