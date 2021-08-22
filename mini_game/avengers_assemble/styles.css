@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: #011f3f;
+}
+
+h1 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 3rem;
+    color: #fef2bf;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 2rem;
+    color: #fef2bf;
+    margin-top: 50px;
+}
+
+.container {
+    padding: 0 50px 0;
+}
+
+.btn {
+    width: 250px;
+    height: 250px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.btn-text {
+    font-family: "Press Start 2P", cursive;
+}
+
+.hero-icon {
+    margin: 20px 0 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+a {
+    display: block;
+    font-family: "Press Start 2P", cursive;
+    font-size: 2rem;
+    color: #fef2bf;
+    margin: 50px 0;
+}
+
+a:hover {
+    color: #fef2bf8a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.glow-effect {
+    box-shadow: 0px 0px 40px 5px white;
+    background-color: white;
+}

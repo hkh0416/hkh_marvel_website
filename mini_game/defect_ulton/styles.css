@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: rgb(83, 175, 19);
+}
+
+a {
+    display: block;
+    font-size: 2rem;
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: rgb(83, 175, 19);
+}
+
+a:hover {
+    color: rgba(84, 175, 19, 0.493);
+}
+
+div#board {
+    position: relative;
+    width: 900px;
+    height: 758px;
+    margin: auto;
+    background: url("board.jpg") no-repeat;
+}
+
+table {
+    position: absolute;
+    left: 150px;
+    top: 85px;
+    border-spacing: 0px;
+}
+td {
+    width: 83px;
+    height: 83px;
+}
+form {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    padding: 10px;
+    background-color: rgb(83, 175, 19);
+}
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+#guessInput {
+    width: 120px;
+}
+
+.hit {
+    background-image: url("ulton.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.miss {
+    background-image: url("miss.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

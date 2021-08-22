@@ -1,0 +1,225 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Title section */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.title-description {
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mff-logo {
+    width: 60%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+
+.dropdown-menu {
+    background-color: #ef8172;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+/* Download button */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Ironman image */
+.ironman1 {
+    width: 70%;
+    transform: rotate(15deg);
+    position: relative;
+    z-index: 0;
+    display: block;
+    margin-left: 15%;
+    border-radius: 15%;
+}
+
+/* Iron Man */
+
+#ironman {
+    background-color: #fff;
+}
+
+#ironman .container-fluid {
+    padding: 5%;
+}
+
+.ironman-p {
+    color: #8f8f8f;
+    padding: 0 20% 0;
+}
+
+.ironman-m {
+    height: 70%;
+    margin: 7% 0;
+}
+
+.ironman-m:hover {
+    opacity: 50%;
+}
+
+.ironman-icon:hover {
+    color: #ff4c68;
+}
+
+/* Tstimoenials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials .container-fluid {
+    padding: 0% 15%;
+}
+
+.testimonial-image {
+    width: 80%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 40px 50px;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 120%;
+}
+
+/* Schedule section */
+
+#schedule {
+    margin-top: 50px;
+}
+
+.schedule-col {
+    padding: 3% 2%;
+}
+
+.movie-poster {
+    width: 80%;
+}
+
+/* Download */
+
+#download {
+    background-image: url("../images/mff_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7% 0;
+}
+
+/* footer section */
+
+#footer {
+    background-color: #fff;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+.footer-p {
+    color: #8f8f8f;
+}
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .ironman1 {
+        transform: rotate(0deg);
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
